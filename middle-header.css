@@ -1,0 +1,32 @@
+.middle-header {
+    height: 110px;
+    font-weight: bold;
+    display: flex;
+    margin-top: -1px;
+    border: 1px;
+    border-style: solid;
+    display: flex;
+    justify-content: end; 
+}
+
+.middle-box {
+  display: flex;
+  border: 1px;
+  border-style: solid;
+  margin: -1px;
+  margin-right: 80px;
+  font-size: 1.1rem;
+  width: 200px;
+  padding-left: 100px;
+  text-align: end;
+  padding-right: 7px;
+}
+
+.middle-text {
+  padding: 0;
+  margin: 0;
+  font-size: 1.5rem;
+  width: 300px;
+  text-align: end;
+  align-self: flex-end;
+}
