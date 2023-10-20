@@ -1,0 +1,112 @@
+.vid-section {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  align-items: center;
+  margin-top: -1px;
+}
+
+.div-intro {
+  margin: 0;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 35px;
+  padding-right: 35px;
+  border: 1px;
+  border-style: solid;
+}
+
+.intro {
+  margin: 0;
+  padding: 0;
+  text-align:end;
+  text-align: right;
+  font-size: 1.25rem;
+  line-height: 40px;
+  width: 390px;
+  margin-bottom: -60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro2 {
+  margin: 0;
+  padding: 0;
+  width: 390px;
+  text-align:end;
+  text-align: right;
+  font-size: 1.25rem;
+  line-height: 40px;
+  margin-top: -60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.div-video {
+  background-color: black;
+  height: 550px;
+  border: 1px;
+  border-style: solid;
+  margin-left: -1px;
+}
+
+.video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+@media (max-width: 800px) {
+  .vid-section {
+    display: block;
+  }
+  .div-intro {
+    height: 380px;
+  }
+  .intro {
+    width: auto;
+    font-size: 1.2rem;
+    line-height: 30px;
+  }
+
+  .intro2 {
+    width: auto;
+    font-size: 1.2rem;
+    line-height: 30px;
+  }
+  
+  .div-video {
+    height: 400px;
+    margin-top: -1px;
+  }
+}
+
+@media only screen 
+    and (width: 390px) 
+    and (height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) {
+      .vid-section {
+        display: block;
+      }
+      .div-intro {
+        height: 380px;
+      }
+      .intro {
+        width: auto;
+        font-size: 1.2rem;  
+        line-height: 30px;
+      }
+    
+      .intro2 {
+        width: auto;
+        font-size: 1.2rem;
+        line-height: 30px;
+      }
+      
+      .div-video {
+        height: 400px;
+        margin-top: -1px;
+      }
+    }

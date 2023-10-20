@@ -1,0 +1,44 @@
+.header {
+  height: 110px;
+  font-weight: bold;
+  display: flex;
+  border: 1px;
+  border-style: solid;
+  display: flex;
+  justify-content: end;
+}
+
+.head-title {
+  border: 1px;
+  border-style: solid;
+  margin: -1px;
+  margin-right: 0;
+  justify-content:end;
+  text-align: end;
+  padding-top: 25px;
+  padding-right: 7px;
+  padding-left: 90px;
+  font-size: 1.5rem;
+}
+
+.text-title {
+  width: 120px;
+}
+
+.head-author {
+  display: flex;
+  flex: 0.3;
+  border: 1px;
+  border-style: solid;
+  margin: -1px;
+  justify-content:end;
+  text-align: end;
+  padding-top: 67px;
+  padding-right: 7px;
+  padding-left: 20px;
+  font-size: 1.1rem;
+}
+
+.text-author {
+  width: 100px;
+}
