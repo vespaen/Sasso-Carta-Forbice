@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(47, 64, 135);
+}
+
+p {
+  margin: 0;
+}
+
+span {
+  font-weight: bold;
+}
