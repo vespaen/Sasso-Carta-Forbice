@@ -1,0 +1,67 @@
+.middle-header {
+    height: 110px;
+    font-weight: bold;
+    display: flex;
+    margin-top: -1px;
+    border: 1px;
+    border-style: solid;
+    display: flex;
+    justify-content: end; 
+}
+
+.scroll-box {
+  display: flex;
+  flex: 1.2;
+  border: 1px;
+  border-style: solid;
+  margin: -1px;
+  font-size: 1.1rem;
+  padding-right: 7px;
+  text-align: end;
+  padding-left: 7px;
+}
+
+.arrow {
+  align-self: flex-end;
+  padding-bottom: 2px;
+  padding-right: 4px;
+  padding-left: 7px;
+}
+
+.scroll-instruction {
+  align-self: flex-end;
+}
+
+.middle-box {
+  display: flex;
+  border: 1px;
+  border-style: solid;
+  margin: -1px;
+  margin-left: 0;
+  font-size: 1.1rem;
+  width: 200px;
+  padding-left: 100px;
+  text-align: end;
+  padding-right: 7px;
+}
+
+.middle-text {
+  padding: 0;
+  margin: 0;
+  font-size: 1.5rem;
+  width: 300px;
+  text-align: end;
+  align-self: flex-end;
+}
+
+@media (max-width: 800px) {
+
+  .scroll-box {
+    font-size: 1rem;
+  }
+
+  .middle-box {
+    padding-left: 40px;
+    width: 170px;
+  }
+}
